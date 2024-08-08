@@ -75,5 +75,8 @@ process_image_with_clahe(
 )
 ```
 
-![comparison](https://github.com/user-attachments/assets/5b6cace3-9aa5-44b4-9973-5bf4b1dc7aa9)
+![comparison](https://github.com/user-attachments/assets/b9d4137d-c3d0-417c-b1bb-e3821fbd46c1)
+>>Patient with diabetic retinopathy
+
+> As you can see above ^^^ the blood vessels and hemorrhages are much more clear after application 
 
