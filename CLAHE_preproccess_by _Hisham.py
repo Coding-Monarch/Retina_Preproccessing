@@ -97,34 +97,13 @@ def process_image_with_clahe(
 
         plt.show()
 
-def process_folder(input_folder, output_folder):
-    # Ensure the output directory exists
-    os.makedirs(output_folder, exist_ok=True)
-
-    # Process each image in the folder
-    for filename in os.listdir(input_folder):
-        if filename.lower().endswith(('.png', '.jpg', '.jpeg')):
-            image_path = os.path.join(input_folder, filename)
-            temp_output_path = os.path.join(output_folder, f"temp_{filename}")
-            final_output_path = os.path.join(output_folder, filename)
-
-            print(f"Processing {image_path}")
-
-            # Apply CLAHE and save the result
-            process_image_with_clahe(
-                filenameInput=image_path,
-                filenameOutput=temp_output_path,
-                clipLimit=5.7,
-                tileSize=(8, 8),
-                saveImages=True,
-                showImages=False,
-                channels_to_apply=['R', 'G', 'B'],
-                resize_dim=None
-            )
-            
-            
-
-# Example usage
-input_folder = "C:\\Users\\Hrafi\\OneDrive\\Desktop\\Ungradeable - Copy"
-output_folder = "C:\\Users\\Hrafi\\OneDrive\\Desktop\\Once and for all"
-process_folder(input_folder, output_folder)
+process_image_with_clahe(
+    filenameInput="your path",
+    filenameOutput="path to folder\\ + whatever name you want to save the photo as",
+    clipLimit=5.7,
+    tileSize=(8, 8),
+    saveImages=True,
+    showImages=False,
+    channels_to_apply=['R', 'G', 'B'],
+    resize_dim=
+)
