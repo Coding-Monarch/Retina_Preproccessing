@@ -75,3 +75,5 @@ process_image_with_clahe(
 )
 ```
 
+![comparison](https://github.com/user-attachments/assets/5b6cace3-9aa5-44b4-9973-5bf4b1dc7aa9)
+
