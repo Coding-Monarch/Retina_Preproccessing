@@ -2,23 +2,23 @@
 Retina Preprocessing with CLAHE
 
 ### Project Description
->This project focuses on enhancing images using CLAHE (Contrast Limited Adaptive Histogram Equalization) to improve contrast and clarity. The preprocessing technique is especially useful for medical imaging, >where clear visibility of features such as blood vessels or hemorrhages is crucial. CLAHE is applied to specified color channels to enhance features while maintaining image quality.
+>This project focuses on enhancing images using CLAHE (Contrast Limited Adaptive Histogram Equalization) to improve contrast and clarity. The preprocessing technique is especially useful for medical imaging, where clear visibility of features such as blood vessels or hemorrhages is crucial. CLAHE is applied to specified color channels to enhance features while maintaining image quality.
 
 ### What Problem Does It Solve?
->CLAHE preprocessing addresses the problem of insufficient contrast in images. This is particularly important for applications where detail and feature visibility are critical. By enhancing contrast adaptively, >CLAHE helps in better feature extraction and analysis.
+>CLAHE preprocessing addresses the problem of insufficient contrast in images. This is particularly important for applications where detail and feature visibility are critical. By enhancing contrast adaptively, CLAHE helps in better feature extraction and analysis.
 
 ## Features
->Apply CLAHE to specific color channels (Red, Green, Blue).
+>Ability to appply CLAHE to different color channels (Red, Green, Blue).
 
->Resize images if needed.
+>Ability to resize images if needed.
 
->Save processed images to specified directories.
+>Ability to save processed images to specified directories.
 
->CLAHE clip limit input. (Note: I have found 5.7-5.5 most successful)
+>CLAHE clip limit input for easier fine tuning. 
 
->CLAHE tile grid size input. (Note: I have found 8,8 most successful)
+>CLAHE tile grid size input.
 
->display the input and output images if wanted.
+>Ability to display the input and output images if wanted.
 
 ## Dependencies
 >OpenCV: For image processing and applying CLAHE.
